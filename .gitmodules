@@ -1,8 +1,1 @@
-# TEMPORARY FIX: The frontend folder should not be a submodule
-# This is a workaround to allow deployment to proceed
-# TODO: Remove frontend as submodule and convert to regular folder
 
-[submodule "frontend"]
-	path = frontend
-	# Using empty repo as placeholder - frontend should be moved to this repo as regular folder
-	url = https://github.com/github/gitignore.git
